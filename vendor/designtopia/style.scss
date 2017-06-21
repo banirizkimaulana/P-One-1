@@ -1,0 +1,350 @@
+// compileExpanded: $1.css
+
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+	&-fluid{
+		background-color: #fff;
+	}
+}
+
+
+/*
+ *	NAVIGASI
+ */
+.navigasi{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	.navbar-default{
+		border: none;
+	}
+
+	.logo{
+		font-size: 40px;
+		color: #555;
+		font-family:'Damion', cursive;
+	}
+
+
+		li{
+			font-size: 18px;
+			font-weight: 300;
+
+			&.active{
+				a{
+					color: #333;
+				}
+			}
+
+			a{
+				color: #777;
+			}
+		}
+}
+
+
+
+/*
+ *	CONTENT
+ */
+
+.breadcrumb {
+	background-color: #fff;
+
+	li{
+		text-transform: capitalize;
+	}
+
+	a{
+		font-weight: 300;
+		color: #333;
+	}
+
+	.active{
+		font-weight: 300;
+		color: #a2a2a2;
+	}
+}
+
+.thumb {
+    width: 30%;
+    padding-bottom : 30%;
+    margin:0 0 2.5% 2.5%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+	figcaption {
+		position: absolute;
+		background: rgba(0,0,0,0.75);
+		color: white;
+		padding: 5px 10px;
+		bottom: 0;
+		left: 0;
+		font-size: 11px;
+	}
+}
+
+
+
+.gallery-depan{
+	.header{
+		text-align: center;
+		margin-bottom: 50px;
+		max-width: 400px;
+
+		p{
+			font-size: 25px;
+			font-weight: 300;
+			line-height: 46px;
+		}
+	}
+}
+
+.gallery-album{
+	.header{
+		//margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+
+		h1, p{
+			font-weight: 300;
+		}
+
+		h1{
+			font-size: 35px;
+
+			b{
+				font-weight: 300;
+			}
+		}
+
+		p{
+			color: #777;
+			line-height: 26px;
+			letter-spacing: 0.2px;
+			font-size: 13px;
+		}
+	}
+}
+
+
+.gallery-album-detail{
+	h2{
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+	p{
+		color: #777;
+		font-weight: 300;
+	}
+
+	.img-detail{
+		img{
+			width: 100%;
+		}
+	}
+
+	.blog-comment {
+		padding-bottom: 32px;
+		margin-bottom: 42px;
+
+		.media{
+
+			img{
+				width: 50px;
+				margin-right: 12px;
+			}
+
+			h3 {
+				display: inline-block;
+				padding-right: 14px;
+				color: #444;
+				font-size: 18px;
+				letter-spacing: 1px;
+				font-weight: 300;
+			}
+
+			span{
+				font-weight: 300;
+			}
+		}
+	}
+
+	.blog-comment h3,
+	.blog-comment-form h3 {
+		font-weight: 300;
+	}
+
+	.blog-comment-form{
+		margin-top: 100px;
+
+		.col-md-6 {
+			padding-left: 0px;
+		}
+
+		.form-control {
+			box-shadow: none;
+			border: 1px solid #f0f0f0;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			transition: all 0.4s ease-in-out;
+
+			&:hover {
+				border-color: #777;
+			}
+		}
+
+		input {
+			height: 45px;
+
+			&[type="submit"] {
+				background: #222;
+				border-radius: 100px;
+				border: none;
+				color: #ffffff;
+				font-weight: 400;
+				transition: all 0.4s ease-in-out;
+
+				&:hover {
+					background: #000;
+					border-color: transparent;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+/*---------------------------------------
+   Contact page
+-----------------------------------------*/
+#contact{
+	.section-title{
+		margin-bottom: 50px;
+		text-align: center;
+
+		h2{
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 35px;
+		}
+
+		h3{
+			color: #555;
+			font-size: 22px;
+			font-weight: 400;
+			letter-spacing: 4px;
+		}
+	}
+
+	.col-md-6, .col-md-12 {
+		padding-left: 0px;
+	}
+
+	.form-control {
+		border: 1px solid #f0f0f0;
+		box-shadow: none;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		transition: all 0.4s ease-in-out;
+
+		&:hover {
+			border-color: #777;
+		}
+	}
+
+	input, select {
+		height: 40px;
+	}
+
+	input[type="submit"] {
+		background: #222;
+		border-radius: 100px;
+		border: none;
+		color: #ffffff;
+		font-weight: 400;
+		transition: all 0.4s ease-in-out;
+
+		&:hover {
+			background: #000;
+		}
+	}
+}
+
+
+
+/*
+ *	FOOTER
+ */
+footer{
+	margin-top: 10px;
+
+	hr{
+		border-color: #e8e8e8;
+	}
+
+	.logo{
+		font-weight: 300;
+		font-size: 25px;
+
+		a{
+			color: #777;
+		}
+	}
+
+	p{
+		color: #777;
+		font-weight: 300;
+
+		a{
+			color: #777;
+		}
+	}
+
+	ul{
+		padding: 0px;
+	}
+
+	.social-icon {
+		li {
+			display: inline-block;
+			list-style: none;
+			font-size: 20px;
+			padding-left: 10px;
+		}
+	}
+}
+
+/*---------------------------------------
+   404 page
+-----------------------------------------*/
+.fzf{
+	h1{
+		font-size: 150px;
+		line-height: 28px;
+		margin: 100px 0;
+	}
+
+	h2{
+		font-size: 24px;
+		line-height: 28px;
+		margin: 40px 0 20px;
+	}
+
+	h3{
+		font-size: 16px;
+		line-height: 28px;
+		margin: 20px 0;
+	}
+
+}
+
+
+@import 'style-dekstop';

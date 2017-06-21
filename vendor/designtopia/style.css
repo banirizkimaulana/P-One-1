@@ -1,0 +1,411 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container-fluid {
+  background-color: #fff;
+}
+
+/*
+ *	NAVIGASI
+ */
+.navigasi {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navigasi .navbar-default {
+  border: none;
+}
+
+.navigasi .logo {
+  font-size: 40px;
+  color: #555;
+  font-family: 'Damion', cursive;
+}
+
+.navigasi li {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.navigasi li.active a {
+  color: #333;
+}
+
+.navigasi li a {
+  color: #777;
+}
+
+/*
+ *	CONTENT
+ */
+.breadcrumb {
+  background-color: #fff;
+}
+
+.breadcrumb li {
+  text-transform: capitalize;
+}
+
+.breadcrumb a {
+  font-weight: 300;
+  color: #333;
+}
+
+.breadcrumb .active {
+  font-weight: 300;
+  color: #a2a2a2;
+}
+
+.thumb {
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 0 0 2.5% 2.5%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumb figcaption {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 11px;
+}
+
+.gallery-depan .header {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 400px;
+}
+
+.gallery-depan .header p {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 46px;
+}
+
+.gallery-album .header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.gallery-album .header h1, .gallery-album .header p {
+  font-weight: 300;
+}
+
+.gallery-album .header h1 {
+  font-size: 35px;
+}
+
+.gallery-album .header h1 b {
+  font-weight: 300;
+}
+
+.gallery-album .header p {
+  color: #777;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+
+.gallery-album-detail h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.gallery-album-detail p {
+  color: #777;
+  font-weight: 300;
+}
+
+.gallery-album-detail .img-detail img {
+  width: 100%;
+}
+
+.gallery-album-detail .blog-comment {
+  padding-bottom: 32px;
+  margin-bottom: 42px;
+}
+
+.gallery-album-detail .blog-comment .media img {
+  width: 50px;
+  margin-right: 12px;
+}
+
+.gallery-album-detail .blog-comment .media h3 {
+  display: inline-block;
+  padding-right: 14px;
+  color: #444;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.gallery-album-detail .blog-comment .media span {
+  font-weight: 300;
+}
+
+.gallery-album-detail .blog-comment h3,
+.gallery-album-detail .blog-comment-form h3 {
+  font-weight: 300;
+}
+
+.gallery-album-detail .blog-comment-form {
+  margin-top: 100px;
+}
+
+.gallery-album-detail .blog-comment-form .col-md-6 {
+  padding-left: 0px;
+}
+
+.gallery-album-detail .blog-comment-form .form-control {
+  box-shadow: none;
+  border: 1px solid #f0f0f0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.gallery-album-detail .blog-comment-form .form-control:hover {
+  border-color: #777;
+}
+
+.gallery-album-detail .blog-comment-form input {
+  height: 45px;
+}
+
+.gallery-album-detail .blog-comment-form input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+
+.gallery-album-detail .blog-comment-form input[type="submit"]:hover {
+  background: #000;
+  border-color: transparent;
+}
+
+/*---------------------------------------
+   Contact page
+-----------------------------------------*/
+#contact .section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#contact .section-title h2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+#contact .section-title h3 {
+  color: #555;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+#contact .col-md-6, #contact .col-md-12 {
+  padding-left: 0px;
+}
+
+#contact .form-control {
+  border: 1px solid #f0f0f0;
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:hover {
+  border-color: #777;
+}
+
+#contact input, #contact select {
+  height: 40px;
+}
+
+#contact input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #000;
+}
+
+/*
+ *	FOOTER
+ */
+footer {
+  margin-top: 10px;
+}
+
+footer hr {
+  border-color: #e8e8e8;
+}
+
+footer .logo {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+footer .logo a {
+  color: #777;
+}
+
+footer p {
+  color: #777;
+  font-weight: 300;
+}
+
+footer p a {
+  color: #777;
+}
+
+footer ul {
+  padding: 0px;
+}
+
+footer .social-icon li {
+  display: inline-block;
+  list-style: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+/*---------------------------------------
+   404 page
+-----------------------------------------*/
+.fzf h1 {
+  font-size: 150px;
+  line-height: 28px;
+  margin: 100px 0;
+}
+
+.fzf h2 {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 40px 0 20px;
+}
+
+.fzf h3 {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  /*
+	 *	NAVIGASI
+	 */
+  .navigasi {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /*
+	 *	CONTENT
+	 */
+  .breadcrumb {
+    background-color: #fff;
+  }
+  .breadcrumb a {
+    font-weight: 300;
+    color: #333;
+  }
+  .breadcrumb .active {
+    font-weight: 300;
+    color: #a2a2a2;
+  }
+  .thumb figcaption {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .gallery-depan .header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-bottom: 100px;
+    max-width: 800px;
+  }
+  .gallery-depan p {
+    font-size: 32px;
+  }
+  .gallery-album .header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 800px;
+  }
+  .gallery-album .header h1 {
+    font-size: 50px;
+  }
+  .gallery-album .header p {
+    font-size: 15px;
+  }
+  .gallery-album-detail .img-detail img {
+    width: 90%;
+  }
+  /*---------------------------------------
+	   Contact section
+	-----------------------------------------*/
+  #contact .section-title {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #contact .section-title h2 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  #contact .section-title h3 {
+    font-size: 26px;
+  }
+  #contact .form-control {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #contact input, #contact select {
+    height: 50px;
+  }
+  /*
+	 *	FOOTER
+	 */
+  footer {
+    margin-top: 100px;
+  }
+  footer .container {
+    padding-top: 50px;
+  }
+}
+
+/*---------------------------------------
+   404 page
+-----------------------------------------*/
+.fzf h1 {
+  font-size: 100px;
+  line-height: 28px;
+  margin: 50px 0;
+}
+
+.fzf h2 {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 40px 0 20px;
+}
+
+.fzf h3 {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 20px 0;
+}
